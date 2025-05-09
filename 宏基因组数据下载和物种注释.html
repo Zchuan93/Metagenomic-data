@@ -1,0 +1,319 @@
+<!DOCTYPE html><html><head>
+      <title>README</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\lmy\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.13\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="宏基因组数据分析流程1基于reads">宏基因组数据分析流程1——基于reads </h1>
+<p>宏基因组的分类学分析可确定宏基因组中存在哪些微生物物种并估计它们的丰度。这可以通过外部序列数据资源（例如公开可用的参考基因组）在不组装的情况下进行。</p>
+<p>这种方法可以减轻组装问题，加快计算速度，并能够对无法从头组装的低丰度生物进行分析。**其主要局限性是以前未表征的微生物难以分析。**然而，可用的参考基因组数量正在迅速增加，每年产生数千个基因组，包括一些来自新培养方法、单细胞测序方法或宏基因组靶向组装难以生长的物种。<strong>对于某些样品类型（例如人类肠道）可用的参考基因组的多样性现在足够广泛，可以使免组装的分类学分析变得高效和成功，包括对于缺乏足够序列覆盖率和深度的相对低丰度的微生物，无法组装其基因组。</strong></p>
+<p>由于缺乏具有代表性的参考基因组，对包括土壤和海洋在内的更多样化环境的分析受到阻碍。因此，在分析来自这些环境的宏基因组时，通常建议使用组装。</p>
+<p>Ref：<br>
+<a href="https://www.nature.com/articles/nbt.3935">Shotgun metagenomics, from sampling to analysis, Nature Biotechnology, 2017</a><br>
+<a href="https://link.springer.com/article/10.1007/s12551-021-00865-y">Metagenome-assembled genomes: concepts, analogies, and challenges,  Biophysical Reviews, 2021</a></p>
+<p>下面是基于reads的分析流程：</p>
+<h2 id="1-获得数据">1 获得数据 </h2>
+<p>目前的宏基因组测序平台中占据主导地位的是Illumina平台因为它具有广泛的可用性，非常高的通量（每次运行高达1.5 Tb）和高精度（典型错误率为0.1-1％）。</p>
+<p>除去自行测序得到的宏基因组序列数据不论，如果是在各大数据库中获取的队列，往往会著名所使用的测序平台，也可以在文章的方法部分获取。</p>
+<p>宏基因组原始数据的格式有fastq,fastq.gz,fasta,fasta.gz等格式，主要的存储平台有NCBI-SRA、EBI、CNGB等，NCBI与EBI数据库的数据往往是共通的，一个编号在两个数据库都能搜到。</p>
+<h3 id="11-获取metadata">1.1 获取metadata </h3>
+<p>如何得到数据的metadata是很重要的，往往需要文章与数据库的样本信息结合来获取metadata信息。这时一个很好的途径是通过NCBI数据库去下载原始的metadata信息。</p>
+<p>比如：我想要下载<a href="https://www.cell.com/cell-metabolism/abstract/S1550-4131(23)00297-8">Resistant starch decreases intrahepatic triglycerides in patients with NAFLD via gut microbiome alterations</a>文章的原始序列，要得到它相应的metadata信息，此时根据文章方法描述，我得到了study编号PRJNA703757。然后我就可以去NCBI-SRA进行搜索，通过下载其对应的metadata文件得到每个样本的名称信息，然后与文章方法中命名规则进行匹配得到各个样本的信息。</p>
+<p>或者也可以在EBI数据库中点击sample信息，可以查看到对该样本的详细描述。</p>
+<h3 id="12-下载序列数据">1.2 下载序列数据 </h3>
+<p>有许多方法可以下载序列数据，比如直接在NCBI或EBI中获取URL后使用wget &lt;URL&gt;进行下载。但是这样下载速度会很慢，如果数据很多就会很烦。</p>
+<p>EBI中提供了Aspera下载方法，这是一种快速下载的方法之一。此时，我们可以通过安装Aspera进行下载。安装方法如下：</p>
+<ul>
+<li>1 conda/mamba安装：</li>
+</ul>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>conda <span class="token function">install</span> <span class="token parameter variable">-c</span> hcc aspera-cli
+</code></pre><p>注意最好要在新环境下进行安装。</p>
+<ul>
+<li>2 官网安装</li>
+</ul>
+<p><a href="https://www.ibm.com/aspera/connect/">官网</a>提供了Linux版本的安装文件。</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token comment"># 下载</span>
+<span class="token function">wget</span> https://d3gcli72yxqn2z.cloudfront.net/downloads/connect/latest/bin/ibm-aspera-connect_4.2.8.540_linux_x86_64.tar.gz
+<span class="token comment"># 解压</span>
+<span class="token function">tar</span> xvf ibm-aspera-connect******.tar.gz   
+<span class="token comment"># 解压后得到一个脚本文件，运行该脚本，即可完成自动安装</span>
+<span class="token function">bash</span> ibm-aspera-connect*******.sh
+<span class="token comment"># 所有安装文件都在~/.aspera/connect目录下，在 ~/.bashrc添加环境变量</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=~</span>/.aspera/connect/bin/:<span class="token environment constant">$PATH</span>
+<span class="token comment"># 使环境变量生效</span>
+<span class="token builtin class-name">source</span>  ~/.bashrc
+</code></pre><p>更建议使用conda安装。</p>
+<p>安装完成后使用<code>which ascp</code>查找密钥位置，后续下载时要用。<br>
+然后将找到的目录中的bin及其后续内容换成<code>etc/asperaweb_id_dsa.openssh</code><br>
+就是私钥了，用于后面的-i选项的填充</p>
+<p>现在可以下载了：</p>
+<p>原始文件的aspera链接可以从EBI数据库中获取，通过勾选上fastq_aspera，下载tsv文件后即得到了一批下载链接：</p>
+<p><img src="image/README/1714890895437.png" alt="1714890895437"></p>
+<p>其中fasp.sra.ebi.ac.uk是host名，我们对这个tsv文件进行数据筛选及处理（分列合并排序等）后得到：</p>
+<p><img src="image/README/1714891021184.png" alt="1714891021184"></p>
+<p>我们对其命名为download_Index.txt</p>
+<p>使用下述命令进行下载：</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>ascp <span class="token parameter variable">-i</span> ~/miniconda3/envs/download/etc/asperaweb_id_dsa.openssh <span class="token parameter variable">-l</span> 300M <span class="token parameter variable">-T</span> <span class="token parameter variable">-P33001</span> <span class="token parameter variable">-k1</span> <span class="token parameter variable">--mode</span> recv <span class="token parameter variable">--host</span> fasp.sra.ebi.ac.uk <span class="token parameter variable">--user</span> era-fasp --file-list download_Index.txt <span class="token builtin class-name">.</span>
+<span class="token comment"># 生工服务器</span>
+ascp <span class="token parameter variable">-i</span> /public/home/zhaiqx/anaconda3/envs/ldold/etc/asperaweb_id_dsa.openssh <span class="token parameter variable">-l</span> 300M <span class="token parameter variable">-T</span> <span class="token parameter variable">-P33001</span> <span class="token parameter variable">-k1</span> <span class="token parameter variable">--mode</span> recv <span class="token parameter variable">--host</span> fasp.sra.ebi.ac.uk <span class="token parameter variable">--user</span> era-fasp --file-list download_Index.txt <span class="token builtin class-name">.</span>
+</code></pre><p>解释：<br>
+-l 最大传输速率<br>
+-i 密钥地址<br>
+-P 密码是默认的<br>
+-T 禁止加密<br>
+-k 断点续传（待查明）<br>
+--mode MODE send为上传数据，recv为下载数据<br>
+--host ftp的host名，NCBI的为<code>ftp-private.ncbi.nlm.nih.gov</code>；EBI的为<code>fasp.sra.ebi.ac.uk</code><br>
+download_Index.txt为EBI下载的tsv文件的fastq_aspera部分将其中的：后面由/vol1开头的链接提取出来即可。<br>
+. 最后的点表示为下载在当前目录下<br>
+--user 用户名NCBI为<code>anonftp</code> EBI为<code>era-fasp</code></p>
+<p>另外，在CNGB数据库下载如下：</p>
+<p>--host为<code>183.239.175.39</code><br>
+--user为<code>aspera_download</code><br>
+download_Index.txt为/pub/CNSA/data1/CNP0000334/CNS0046808/CNX0036710/CNR0054789/A0002_RmHost.1.fq.gz（pub/CNSA/data1?/项目号/样本编号/实验编号/测序编号/文件名称）<br>
+这个可以去CNGB官网将其复制至Excel中进行组装和筛选（单页面显示100个）</p>
+<p>另外还有使用kingsfisher的方法来下载数据的，放在<code>1下载</code>文件夹下了。</p>
+<p>需要注意的是：下载数据需要在可以访问外部网络的节点进行，生工服务器中只有登录节点可以访问外部网络。可以使用ping命令进行测试：</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token comment"># 交互式作业登录某个节点，创建伪终端</span>
+srun <span class="token parameter variable">-p</span> <span class="token operator">&lt;</span>节点名<span class="token operator">&gt;</span> <span class="token parameter variable">--pty</span> <span class="token function">bash</span> <span class="token comment"># srun --pty $SHELL</span>
+<span class="token comment"># ping测试（测试数据包能否从您的计算机成功地发送到指定的服务器，并能否正确地返回）</span>
+<span class="token function">ping</span> <span class="token parameter variable">-c</span> <span class="token number">4</span> google.com <span class="token comment"># -c 4 指定 ping 命令发送回声请求的次数</span>
+</code></pre><h2 id="2-去污染">2 去污染 </h2>
+<p>这里采用的是kneaddata进行去污染操作。</p>
+<p>方法：</p>
+<p>在<code>2去污染</code>文件夹下的<code>kneaddata.slurm</code>脚本可以使用<code>sbatch kneaddata.slurm</code>跑去污染，当前文件夹下包含一个名为id的纯文本文件，它包括了要跑的所有ID名称。跑之前还要修改<code>#SBATCH --array=0,1%1</code>中的值，其中0,1可以改为任何范围比如有30个样就是0-29，然后%后表示同时运行的任务个数，根据需要进行分配。</p>
+<p>经过测试，kneaddata运行最多会调用4核左右，内存使用会随着文件的大小而改变，单个faastq.gz文件为3G左右（gzip -1：最小压缩率）的需要40G左右的内存。</p>
+<p><img src="image/README/1714893453592.png" alt="1714893453592"></p>
+<p>因此，建议如此分配资源：</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token comment">#SBATCH --cpus-per-task=6 #相应更改kneaddata中的threads</span>
+<span class="token comment">#SBATCH --mem=50G</span>
+</code></pre><p>代码解释：</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>kneaddata <span class="token parameter variable">--input1</span> <span class="token variable">${ID}</span>_1.fastq.gz <span class="token parameter variable">--input2</span> <span class="token variable">${ID}</span>_2.fastq.gz <span class="token parameter variable">-db</span> ~/database/human_G <span class="token parameter variable">--output</span> <span class="token variable">${ID}</span> --trimmomatic-options <span class="token string">"ILLUMINACLIP:/TruSeq3-SE.fa:2:30:10:8:true SLIDINGWINDOW:4:20 MINLEN:50"</span> --remove-intermediate-output <span class="token parameter variable">--threads</span> <span class="token number">6</span>
+kneaddata_read_count_table <span class="token parameter variable">--input</span> <span class="token variable">${ID}</span>/ <span class="token parameter variable">--output</span> clean/<span class="token variable">${ID}</span>.tsv
+</code></pre><ul>
+<li><code>--trimmomatic-options "ILLUMINACLIP:/TruSeq3-SE.fa:2:30:10:8:true SLIDINGWINDOW:4:20 MINLEN:50" </code>：ILLUMINACLIP:/TruSeq3-SE.fa:2:30:10:8:true去接头的一系列操作，SLIDINGWINDOW:4:20 MINLEN:50质控的操作，具体见文件夹下的<code>TrimmomaticManual_V0.32.pdf</code>。</li>
+<li>--remove-intermediate-output删除过程文件（每个产生的过程文件很大，单个faastq.gz文件为3G左右的双端测序文件产生的过程文件约200G左右）</li>
+<li>单个faastq.gz文件为3G左右的双端测序文件运行时间约2.5-3小时。</li>
+<li>kneaddata_read_count_table用于生成去污染过程的详情。<br>
+<img src="image/README/1714893679304.png" alt="1714893679304"></li>
+<li>所有输出文件都在clean文件夹下，clean可以不预先创建。</li>
+</ul>
+<p>Ref：<a href="https://github.com/biobakery/biobakery/wiki/kneaddata">KneadData Tutorial</a></p>
+<h2 id="3-物种注释">3 物种注释 </h2>
+<p>在<code>3物种注释</code>文件夹下的<code>metaphlan.slurm</code>脚本可以使用<code>sbatch metaphlan.slurm</code>跑去物种注释，注意包含id文件以及修改array。（<a href="#2-%E5%8E%BB%E6%B1%A1%E6%9F%93">同上</a>）</p>
+<p>经测试，物种注释与样本大小无关，分配25G内存足够，全过程在7核左右跑，分配8cpus足矣。</p>
+<p><img src="image/README/1714894487344.png" alt="1714894487344"></p>
+<p>代码很简单：</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>metaphlan clean/<span class="token variable">${ID}</span>_1_kneaddata_paired_1.fastq.gz,clean/<span class="token variable">${ID}</span>_1_kneaddata_paired_2.fastq.gz <span class="token parameter variable">--bowtie2out</span>  meta/<span class="token variable">${ID}</span>.bowtie2.bz2 <span class="token parameter variable">--nproc</span> <span class="token number">8</span> <span class="token parameter variable">--input_type</span> fastq <span class="token parameter variable">-o</span> meta/<span class="token variable">${ID}</span>.txt
+</code></pre><p><code>--bowtie2out  meta/${ID}.bowtie2.bz2</code>是为了方便下次再进行分析时会更加快速：<code>--input_type bowtie2out</code>。</p>
+<p>后续需要将所有结果进行合并</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>merge_metaphlan_tables.py *.txt <span class="token operator">&gt;</span> merged_abundance_table.txt
+</code></pre><p>然后分隔开lv1-lv7的物种：</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">grep</span> <span class="token parameter variable">-E</span> <span class="token string">'k__|clade_name'</span> merged_abundance_table.txt <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-v</span> p__ <span class="token operator">&gt;</span> level1_merged_abundance.txt
+<span class="token function">grep</span> <span class="token parameter variable">-E</span> <span class="token string">'p__|clade_name'</span> merged_abundance_table.txt <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-v</span> c__ <span class="token operator">&gt;</span> level2_merged_abundance.txt
+<span class="token function">grep</span> <span class="token parameter variable">-E</span> <span class="token string">'c__|clade_name'</span> merged_abundance_table.txt <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-v</span> o__ <span class="token operator">&gt;</span> level3_merged_abundance.txt
+<span class="token function">grep</span> <span class="token parameter variable">-E</span> <span class="token string">'o__|clade_name'</span> merged_abundance_table.txt <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-v</span> f__ <span class="token operator">&gt;</span> level4_merged_abundance.txt
+<span class="token function">grep</span> <span class="token parameter variable">-E</span> <span class="token string">'f__|clade_name'</span> merged_abundance_table.txt <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-v</span> g__ <span class="token operator">&gt;</span> level5_merged_abundance.txt
+<span class="token function">grep</span> <span class="token parameter variable">-E</span> <span class="token string">'g__|clade_name'</span> merged_abundance_table.txt <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-v</span> s__ <span class="token operator">&gt;</span> level6_merged_abundance.txt
+<span class="token function">grep</span> <span class="token parameter variable">-E</span> <span class="token string">'s__|clade_name'</span> merged_abundance_table.txt <span class="token operator">|</span> <span class="token function">grep</span> <span class="token parameter variable">-v</span> t__ <span class="token operator">&gt;</span> level7_merged_abundance.txt
+</code></pre><p>至此，物种注释结束</p>
+<p>Ref:<br>
+<a href="https://github.com/biobakery/biobakery/wiki/metaphlan4">MetaPhlAn 4.0 tutorial</a>：过程及结果分析处理详情<br>
+<a href="https://github.com/biobakery/MetaPhlAn/wiki/MetaPhlAn-4">MetaPhlAn 4</a>：安装及大体过程简介</p>
+<h2 id="4-功能注释">4 功能注释 </h2>
+<p>功能注释使用的是humann3.6.1进行的，在<code>4功能注释</code>文件夹下先运行<code>humann.slurm</code>，再运行<code>huamnn1.slurm</code>即可。包含的id文件<a href="#2-%E5%8E%BB%E6%B1%A1%E6%9F%93">同上</a>。</p>
+<p>经测试，物种注释与样本大小有关，分配60G内存，全过程在7核左右跑，分配8cpus足矣。</p>
+<p>补充：</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token comment"># 下载数据库</span>
+humann_databases <span class="token parameter variable">--download</span> chocophlan full /path/to/databases --update-config <span class="token function">yes</span>
+humann_databases <span class="token parameter variable">--download</span> uniref uniref90_diamond /path/to/databases --update-config <span class="token function">yes</span>
+humann_databases <span class="token parameter variable">--download</span> utility_mapping full /path/to/databases --update-config <span class="token function">yes</span>
+<span class="token comment"># 解压</span>
+<span class="token function">tar</span> <span class="token parameter variable">-zxvf</span> full_chocophlan.v296_201901.tar.gz <span class="token parameter variable">-C</span> ./chocophlan_v296_201901/
+<span class="token function">tar</span> <span class="token parameter variable">-zxvf</span> uniref90_annotated_v201901.tar.gz <span class="token parameter variable">-C</span> uniref90_v201901
+<span class="token function">tar</span> <span class="token parameter variable">-zxvf</span> full_mapping_v201901.tar.gz <span class="token parameter variable">-C</span> ./mapping_v201901/
+<span class="token comment"># 设置数据库默认</span>
+humann_config <span class="token parameter variable">--update</span> database_folders nucleotide /path/to/databases/chocophlan_v296_201901
+humann_config <span class="token parameter variable">--update</span> database_folders protein /path/to/databases/uniref90_v201901/
+humann_config <span class="token parameter variable">--update</span> database_folders utility_mapping /path/to/databases/mapping_v201901/
+<span class="token comment"># 更新后查看设置</span>
+humann_config 
+<span class="token comment"># ECfilter数据库</span>
+humann_databases <span class="token parameter variable">--download</span> uniref uniref90_ec_filtered_diamond <span class="token variable">$INSTALL_LOCATION</span>
+</code></pre><p>为了加快功能注释速度，可以使用合并后的最大丰度表来作为metaphlan运行结果输入给humann运行（注意，如果每个都使用自己的丰度表也是可以的）。我们先使用3中的merge结果输出一个max丰度表：</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code><span class="token function">awk</span> <span class="token string">'{ FS="\t"; OFS="\t"} NR==1 {print $1, $2;} NR&gt;1 {max_val = $2;  for(i=3; i&lt;=NF; i++) {if ($i+0 &gt; max_val+0) {max_val = $i;}} print $1,"", max_val,""; }'</span> merged_abundance_table.txt <span class="token operator">&gt;</span> max_abundance_table.txt
+</code></pre><p>注意：这里的输出<code>print $1,"", max_val,"";</code>不要更改，因为humann读取metaphlan4数据时是读取的首列物种信息数据和倒数第二列的相对丰度信息，默认设置相对丰度的阈值为0.01，可以通过<code>--prescreen-threshold &lt;0.01&gt;</code>进行更改。</p>
+<p>此时的<code>max_abundance_table.txt</code>可以用于传递给humann了。首先运行humann.slurm。此时只运行一个样本，不要设置过程文件的删除。</p>
+<p>运行完成后，此时得到了第一个样本通过索引max_abundance_table.txt得到的过程文件，它可以用于后续的样本的自定义索引提供，这样可以减少索引过程，提速1-2小时左右。此时运行<code>humann1.slurm</code>文件（当然，也可以使用if语句通过<code>$SLURM_ARRAY_TASK_ID</code>的值作为判断依据来合成一个脚本，这不重要）</p>
+<p>经过验证，max_abundance_table.txt方法的结果与单个样本建立索引差别不大（特别是生成相对丰度后），另外，关于humann运行后出现了本身不存在与metaphlan注释后的新物种，建议将此类新物种修改为unclassified（<a href="https://forum.biobakery.org/t/discrepancy-between-metaphlan3-community-profile-and-humann3-gene-families/2720/4" title="metaphlan与humann的差异解释">社区</a>有解释）。</p>
+<p>另外，无论社区还是用户文档都提到了，想要提速，可以将翻译搜索的数据库建立在具有EC注释的Uniref90的蛋白质上，但您会失去对注释不太好的蛋白质的覆盖。但这是个很好的快速获取结果的办法。（<a href="https://forum.biobakery.org/t/using-a-single-general-metaphlan-bugs-list-for-all-samples/5633/3">社区：使用EC-filtered translated search database提速</a>）</p>
+<p>用户文档：<br>
+<img src="image/README/1714898415821.png" alt="1714898415821"><br>
+对于许多用户来说，经过过滤的翻译搜索将作为一个很好的默认选项。这仍然将为未分类的层提供1，000个基因水平特征和不妥协的代谢网络。对于特征非常好的样本，绕过翻译搜索是一个合理的选择。例如，在健康的人类肠道中，大多数可以映射到参考的样本读数（~80%）是在翻译搜索之前映射的。</p>
+<p>所以如果想要将ECfliter数据库用于翻译搜索，则要加上<code>--protein-database /public/home/zhaiqx/database/humann_db/uniref90_ECfilter</code>，正如我在humanntest.slurm中的内容那样。二者的物种索引过程不冲突，所以运行完第一个样本后并未进行重新运行物种索引过程。</p>
+<p>对于结果，可以进行组合、标准化、重命名以及重新分组操作。</p>
+<ul>
+<li>组合：</li>
+</ul>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>humann_join_tables <span class="token parameter variable">--input</span> <span class="token variable">$INPUT_DIR</span> <span class="token parameter variable">--output</span> <span class="token variable">$TABLE</span>
+</code></pre><p>$INPUT_DIR = 包含gene/pathway tables的文件夹 (tsv or biom format)<br>
+$TABLE = the file to write the new single gene table (biom format if input is biom format)</p>
+<ul>
+<li>标准化</li>
+</ul>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>humann_renorm_table <span class="token parameter variable">--input</span> <span class="token variable">$TABLE</span> <span class="token parameter variable">--units</span> <span class="token variable">$CHOICE</span> <span class="token parameter variable">--output</span> <span class="token variable">$TABLE2</span> --updata-snames
+</code></pre><p>--units 可选："relab" (相对丰度) or "cpm" (copies per million)<br>
+--updata-snames：重命名列名</p>
+<ul>
+<li>重分组</li>
+</ul>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>humann_regroup_table <span class="token parameter variable">--input</span> <span class="token variable">$TABLE</span> <span class="token parameter variable">--groups</span> <span class="token environment constant">$GROUPS</span> <span class="token parameter variable">--output</span> <span class="token variable">$TABLE2</span>
+</code></pre><p>看帮助文件吧，反正就是相当于映射到不同数据库：</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>usage: humann_regroup_table <span class="token punctuation">[</span>-h<span class="token punctuation">]</span> <span class="token punctuation">[</span>-i INPUT<span class="token punctuation">]</span>
+                            <span class="token punctuation">[</span>-g <span class="token punctuation">{</span>uniref90_rxn,uniref50_rxn,uniref50_go,uniref90_go,uniref50_ko,uniref90_ko,uniref50_level4ec,uniref90_level4ec,uniref50_pfam,uniref90_pfam,uniref50_eggnog,uniref90_eggnog<span class="token punctuation">}</span><span class="token punctuation">]</span>
+                            <span class="token punctuation">[</span>-c CUSTOM<span class="token punctuation">]</span> <span class="token punctuation">[</span>-r<span class="token punctuation">]</span> <span class="token punctuation">[</span>-f <span class="token punctuation">{</span>sum,mean<span class="token punctuation">}</span><span class="token punctuation">]</span> <span class="token punctuation">[</span>-e PRECISION<span class="token punctuation">]</span>
+                            <span class="token punctuation">[</span>-u <span class="token punctuation">{</span>Y,N<span class="token punctuation">}</span><span class="token punctuation">]</span> <span class="token punctuation">[</span>-p <span class="token punctuation">{</span>Y,N<span class="token punctuation">}</span><span class="token punctuation">]</span> <span class="token punctuation">[</span>-o OUTPUT<span class="token punctuation">]</span>
+
+HUMAnN utility <span class="token keyword keyword-for">for</span> regrouping table features
+<span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">=</span>
+Given a table of feature values and a mapping
+of <span class="token function">groups</span> to component features, produce a 
+new table with group values <span class="token keyword keyword-in">in</span> place of 
+feature values.
+
+optional arguments:
+  -h, <span class="token parameter variable">--help</span>            show this <span class="token builtin class-name">help</span> message and <span class="token builtin class-name">exit</span>
+  <span class="token parameter variable">-i</span> INPUT, <span class="token parameter variable">--input</span> INPUT
+                        Original output table <span class="token punctuation">(</span>tsv or biom <span class="token function">format</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token assign-left variable">default</span><span class="token operator">=</span><span class="token punctuation">[</span>TSV/STDIN<span class="token punctuation">]</span>
+  <span class="token parameter variable">-g</span> <span class="token punctuation">{</span>uniref90_rxn,uniref50_rxn,uniref50_go,uniref90_go,uniref50_ko,uniref90_ko,uniref50_level4ec,uniref90_level4ec,uniref50_pfam,uniref90_pfam,uniref50_eggnog,uniref90_eggnog<span class="token punctuation">}</span>, <span class="token parameter variable">--groups</span> <span class="token punctuation">{</span>uniref90_rxn,uniref50_rxn,uniref50_go,uniref90_go,uniref50_ko,uniref90_ko,uniref50_level4ec,uniref90_level4ec,uniref50_pfam,uniref90_pfam,uniref50_eggnog,uniref90_eggnog<span class="token punctuation">}</span>
+                        Built-in grouping options
+  <span class="token parameter variable">-c</span> CUSTOM, <span class="token parameter variable">--custom</span> CUSTOM
+                        Custom <span class="token function">groups</span> <span class="token function">file</span> <span class="token punctuation">(</span>.tsv or .tsv.gz <span class="token function">format</span><span class="token punctuation">)</span>
+  -r, <span class="token parameter variable">--reversed</span>        Custom <span class="token function">groups</span> <span class="token function">file</span> is reversed: mapping from features to <span class="token function">groups</span>
+  <span class="token parameter variable">-f</span> <span class="token punctuation">{</span>sum,mean<span class="token punctuation">}</span>, <span class="token parameter variable">--function</span> <span class="token punctuation">{</span>sum,mean<span class="token punctuation">}</span>
+                        How to combine grouped features<span class="token punctuation">;</span> <span class="token assign-left variable">default</span><span class="token operator">=</span>sum
+  <span class="token parameter variable">-e</span> PRECISION, <span class="token parameter variable">--precision</span> PRECISION
+                        Decimal places to round to after applying <span class="token keyword keyword-function">function</span><span class="token punctuation">;</span> <span class="token assign-left variable">default</span><span class="token operator">=</span>Don<span class="token string">'t round
+  -u {Y,N}, --ungrouped {Y,N}
+                        Include an '</span>UNGROUPED<span class="token string">' group to capture features that did not belong to other groups? default=Y
+  -p {Y,N}, --protected {Y,N}
+                        Carry through protected features, such as '</span>UNMAPPED'? <span class="token assign-left variable">default</span><span class="token operator">=</span>Y
+  <span class="token parameter variable">-o</span> OUTPUT, <span class="token parameter variable">--output</span> OUTPUT
+                        Path <span class="token keyword keyword-for">for</span> modified output table<span class="token punctuation">;</span> <span class="token assign-left variable">default</span><span class="token operator">=</span>STDOUT
+</code></pre><ul>
+<li>重命名</li>
+</ul>
+<p>重分组可能有些名字还是非人类能读也，所以可以再进行一个重命名：</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>humann_rename_table <span class="token parameter variable">--input</span> <span class="token variable">$TABLE</span> <span class="token parameter variable">--names</span> <span class="token variable">$NAMES</span> <span class="token parameter variable">--output</span> <span class="token variable">$TABLE2</span>
+</code></pre><p>这里names与前面groups是对应的，也是可选的，一样，看帮助文件吧（-h：好东西）：</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash bash"><code>usage: humann_rename_table <span class="token punctuation">[</span>-h<span class="token punctuation">]</span> <span class="token punctuation">[</span>-i INPUT<span class="token punctuation">]</span>
+                           <span class="token punctuation">[</span>-n <span class="token punctuation">{</span>kegg-orthology,kegg-pathway,kegg-module,ec,metacyc-rxn,metacyc-pwy,pfam,eggnog,go,infogo1000,uniref50,uniref90<span class="token punctuation">}</span><span class="token punctuation">]</span>
+                           <span class="token punctuation">[</span>-c CUSTOM<span class="token punctuation">]</span> <span class="token punctuation">[</span>-s<span class="token punctuation">]</span> <span class="token punctuation">[</span>-o OUTPUT<span class="token punctuation">]</span>
+
+HUMAnN utility <span class="token keyword keyword-for">for</span> renaming table features
+<span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">=</span>
+
+optional arguments:
+  -h, <span class="token parameter variable">--help</span>            show this <span class="token builtin class-name">help</span> message and <span class="token builtin class-name">exit</span>
+  <span class="token parameter variable">-i</span> INPUT, <span class="token parameter variable">--input</span> INPUT
+                        Original output table <span class="token punctuation">(</span>tsv or biom <span class="token function">format</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token assign-left variable">default</span><span class="token operator">=</span><span class="token punctuation">[</span>TSV/STDIN<span class="token punctuation">]</span>
+  <span class="token parameter variable">-n</span> <span class="token punctuation">{</span>kegg-orthology,kegg-pathway,kegg-module,ec,metacyc-rxn,metacyc-pwy,pfam,eggnog,go,infogo1000,uniref50,uniref90<span class="token punctuation">}</span>, <span class="token parameter variable">--names</span> <span class="token punctuation">{</span>kegg-orthology,kegg-pathway,kegg-module,ec,metacyc-rxn,metacyc-pwy,pfam,eggnog,go,infogo1000,uniref50,uniref90<span class="token punctuation">}</span>
+                        Table features that can be renamed with included data files
+  <span class="token parameter variable">-c</span> CUSTOM, <span class="token parameter variable">--custom</span> CUSTOM
+                        Custom mapping of feature IDs to full names <span class="token punctuation">(</span>.tsv or .tsv.gz<span class="token punctuation">)</span>
+  -s, <span class="token parameter variable">--simplify</span>        Remove non-alphanumeric characters from names
+  <span class="token parameter variable">-o</span> OUTPUT, <span class="token parameter variable">--output</span> OUTPUT
+                        Path <span class="token keyword keyword-for">for</span> modified output table<span class="token punctuation">;</span> <span class="token assign-left variable">default</span><span class="token operator">=</span><span class="token punctuation">[</span>STDOUT<span class="token punctuation">]</span>
+</code></pre><p>到此为止，部分细节可以去看用户文件和论坛。</p>
+<p>Ref：<br>
+<a href="https://github.com/biobakery/biobakery/wiki/humann3">HUMAnN 3.0 tutorial</a>:整体过程及分析可视化<br>
+<a href="https://github.com/biobakery/humann?tab=readme-ov-file#humann-30-user-manual">HUMAnN 3.0 User Manual</a>：各种细节<br>
+<a href="https://forum.biobakery.org/c/microbial-community-profiling/humann/5">HUMAnN论坛</a>：各种问题的解决办法</p>
+<p>Limingyang_20240506</p>
+
+      </div>
+      <div class="md-sidebar-toc">
+<div class="md-toc">
+<details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#宏基因组数据分析流程1基于reads" class="md-toc-link"><p>宏基因组数据分析流程1——基于reads</p>
+</a>
+          </summary>
+        <div>
+          <details style="padding:0;;padding-left:24px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#1-获得数据" class="md-toc-link"><p>1 获得数据</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#11-获取metadata" class="md-toc-link">
+            <p>1.1 获取metadata</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#12-下载序列数据" class="md-toc-link">
+            <p>1.2 下载序列数据</p>
+
+          </a></div>
+        </div>
+      </details>
+    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#2-去污染" class="md-toc-link">
+            <p>2 去污染</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#3-物种注释" class="md-toc-link">
+            <p>3 物种注释</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#4-功能注释" class="md-toc-link">
+            <p>4 功能注释</p>
+
+          </a></div>
+        </div>
+      </details>
+    
+</div>
+</div>
+      <a id="sidebar-toc-btn">≡</a>
+    
+    
+    
+    
+    
+    
+<script>
+
+var sidebarTOCBtn = document.getElementById('sidebar-toc-btn')
+sidebarTOCBtn.addEventListener('click', function(event) {
+  event.stopPropagation()
+  if (document.body.hasAttribute('html-show-sidebar-toc')) {
+    document.body.removeAttribute('html-show-sidebar-toc')
+  } else {
+    document.body.setAttribute('html-show-sidebar-toc', true)
+  }
+})
+</script>
+      
+  
+    </body></html>
